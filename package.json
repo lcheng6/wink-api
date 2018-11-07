@@ -4,7 +4,7 @@
   "description": "The Wink API connects Wink devices to users, apps, each other, and the wider web.  Targets the v2 API",
   "main": "index.js",
   "scripts": {
-    "test": "tsc && jasmine",
+    "test": "ntypescript && jasmine",
     "cover": "istanbul cover -x '**/*.spec.js' --include-all-sources node_modules/jasmine/bin/jasmine.js",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
